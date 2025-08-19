@@ -44,10 +44,11 @@ export default {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))'
 				},
-				'love-pink': 'hsl(var(--love-pink))',
-				'love-rose': 'hsl(var(--love-rose))',
-				'love-blush': 'hsl(var(--love-blush))',
-				'love-deep': 'hsl(var(--love-deep))',
+				'cyber-blue': 'hsl(var(--cyber-blue))',
+				'cyber-pink': 'hsl(var(--cyber-pink))',
+				'cyber-purple': 'hsl(var(--cyber-purple))',
+				'neon-glow': 'hsl(var(--neon-glow))',
+				'hologram': 'hsl(var(--hologram))',
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
@@ -110,9 +111,9 @@ export default {
 				'sparkle': 'sparkle 2s ease-in-out infinite'
 			},
 			backgroundImage: {
-				'gradient-love': 'var(--gradient-love)',
-				'gradient-sunset': 'var(--gradient-sunset)',
-				'gradient-dreamy': 'var(--gradient-dreamy)'
+				'gradient-cyber': 'var(--gradient-cyber)',
+				'gradient-hologram': 'var(--gradient-hologram)',
+				'gradient-neon': 'var(--gradient-neon)'
 			}
 		}
 	},

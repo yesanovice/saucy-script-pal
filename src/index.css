@@ -29,16 +29,17 @@ All colors MUST be HSL.
     --accent: 350 70% 88%;
     --accent-foreground: 340 60% 25%;
 
-    /* Love-themed colors */
-    --love-pink: 330 80% 70%;
-    --love-rose: 340 75% 60%;
-    --love-blush: 350 60% 85%;
-    --love-deep: 340 90% 45%;
+    /* AI Chat themed colors */
+    --cyber-blue: 200 100% 70%;
+    --cyber-pink: 330 80% 70%;
+    --cyber-purple: 280 60% 65%;
+    --neon-glow: 180 100% 80%;
+    --hologram: 200 80% 85%;
     
-    /* Romantic gradients */
-    --gradient-love: linear-gradient(135deg, hsl(330 80% 70%), hsl(340 75% 60%));
-    --gradient-sunset: linear-gradient(135deg, hsl(340 75% 60%), hsl(20 80% 65%));
-    --gradient-dreamy: linear-gradient(180deg, hsl(350 60% 85%), hsl(330 40% 90%));
+    /* Cyber gradients */
+    --gradient-cyber: linear-gradient(135deg, hsl(200 100% 70%), hsl(280 60% 65%));
+    --gradient-hologram: linear-gradient(135deg, hsl(180 100% 80%), hsl(200 80% 85%));
+    --gradient-neon: linear-gradient(180deg, hsl(330 80% 70%), hsl(280 60% 65%));
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -88,15 +89,16 @@ All colors MUST be HSL.
     --accent: 340 35% 20%;
     --accent-foreground: 350 80% 95%;
 
-    /* Dark mode love colors */
-    --love-pink: 330 60% 55%;
-    --love-rose: 340 65% 50%;
-    --love-blush: 350 40% 25%;
-    --love-deep: 340 80% 40%;
+    /* Dark mode cyber colors */
+    --cyber-blue: 200 80% 60%;
+    --cyber-pink: 330 70% 60%;
+    --cyber-purple: 280 50% 55%;
+    --neon-glow: 180 80% 70%;
+    --hologram: 200 60% 75%;
     
-    --gradient-love: linear-gradient(135deg, hsl(330 60% 55%), hsl(340 65% 50%));
-    --gradient-sunset: linear-gradient(135deg, hsl(340 65% 50%), hsl(20 60% 45%));
-    --gradient-dreamy: linear-gradient(180deg, hsl(340 30% 18%), hsl(330 25% 15%));
+    --gradient-cyber: linear-gradient(135deg, hsl(200 80% 60%), hsl(280 50% 55%));
+    --gradient-hologram: linear-gradient(135deg, hsl(180 80% 70%), hsl(200 60% 75%));
+    --gradient-neon: linear-gradient(180deg, hsl(330 70% 60%), hsl(280 50% 55%));
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;

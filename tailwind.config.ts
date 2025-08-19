@@ -44,6 +44,10 @@ export default {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))'
 				},
+				'love-pink': 'hsl(var(--love-pink))',
+				'love-rose': 'hsl(var(--love-rose))',
+				'love-blush': 'hsl(var(--love-blush))',
+				'love-deep': 'hsl(var(--love-deep))',
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
@@ -84,11 +88,31 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'pulse-heart': {
+					'0%, 100%': { transform: 'scale(1)' },
+					'50%': { transform: 'scale(1.1)' }
+				},
+				'sparkle': {
+					'0%, 100%': { opacity: '0', transform: 'scale(0)' },
+					'50%': { opacity: '1', transform: 'scale(1)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 3s ease-in-out infinite',
+				'pulse-heart': 'pulse-heart 2s ease-in-out infinite',
+				'sparkle': 'sparkle 2s ease-in-out infinite'
+			},
+			backgroundImage: {
+				'gradient-love': 'var(--gradient-love)',
+				'gradient-sunset': 'var(--gradient-sunset)',
+				'gradient-dreamy': 'var(--gradient-dreamy)'
 			}
 		}
 	},
